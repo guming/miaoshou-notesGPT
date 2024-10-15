@@ -55,6 +55,7 @@ const RecordedfileItemCard = ({
           className="flex h-fit w-fit cursor-pointer items-center justify-center gap-5 bg-transparent p-2 transition hover:scale-125 md:inline-block"
         >
           <img src={'/icons/delete.svg'} alt="delete" width={20} height={20} />
+          <img src={'/icons/delete.svg'} alt="SyncToNotion" width={20} height={20} />
         </button>
       </div>
     </Link>

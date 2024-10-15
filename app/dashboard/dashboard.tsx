@@ -50,7 +50,7 @@ export default function DashboardHomePage({
         </h1>
       </div>
       {/* search bar */}
-      <div className="mx-auto mb-10 mt-4 flex h-fit w-[90%] items-center gap-[17px] rounded border border-black bg-white px-[11px] py-[10px] sm:px-[15px] md:mb-[42px] md:w-[623px] md:px-[40px] md:py-[10px]">
+      {/* <div className="mx-auto mb-10 mt-4 flex h-fit w-[90%] items-center gap-[17px] rounded border border-black bg-white px-[11px] py-[10px] sm:px-[15px] md:mb-[42px] md:w-[623px] md:px-[40px] md:py-[10px]">
         <Image
           src="/icons/search.svg"
           width={27}
@@ -67,7 +67,7 @@ export default function DashboardHomePage({
             className="w-full text-[16px] outline-none md:text-xl"
           />
         </form>
-      </div>
+      </div> */}
       {/* recorded items */}
       <div className="h-fit w-full max-w-[1360px] md:px-5 xl:mx-auto">
         {finalNotes &&
